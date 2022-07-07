@@ -1,0 +1,31 @@
+.col-md-6{
+	float: left;
+}
+
+.col-md-4{
+	float: left;
+	border: 1px solid black;
+}
+.arrange{
+	display: inline;
+	float: left;
+	width: 20px;
+}
+.bg-green{
+	background-color: green;
+}
+h1{
+	text-align: center;
+}
+body{
+	font-size: 0.5em;
+}
+@media(max: 992px){
+	.nav-item{
+		width: 100%;
+		float: left;
+		display: block;
+	}
+}
+
+}
